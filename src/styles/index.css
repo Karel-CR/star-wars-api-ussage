@@ -1,3 +1,25 @@
 /* 
     General Styles
 */
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    background-image: url("http://lukedowding.com/img/space.jpg");
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #080808;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ccc9c9;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #615e5e;
+  }
+  

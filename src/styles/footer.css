@@ -1,0 +1,29 @@
+.star-foot {
+    background-color: black;
+    background-image: url("http://lukedowding.com/img/space.jpg");
+  }
+  .media-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tiktok,
+  .instagram,
+  .xtwitter,
+  .facebook,
+  .youtube {
+    color: white;
+  }
+  .social-icon {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  .tiktok:hover,
+  .instagram:hover,
+  .xtwitter:hover,
+  .facebook:hover,
+  .youtube:hover {
+    filter: drop-shadow(0 0 10px white);
+  }
+  

@@ -1,0 +1,13 @@
+.carousel {
+    border: 1px solid white;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .carousel-top {
+    margin-top: 120px;
+  }
+  .carousel-bottom {
+    margin-bottom: 0;
+  }
+  
