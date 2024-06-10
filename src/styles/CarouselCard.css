@@ -1,0 +1,86 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: white;
+    height: 419px;
+    width: 300px;
+    border-radius: 0 0 10px 10px;
+    background-image: url("http://lukedowding.com/img/space.jpg");
+  }
+  
+  @media screen and (max-width: 600px) {
+    .card-container {
+      width: 100%;
+      height: auto;
+      max-width: 350px;
+    }
+  }
+  .img-container {
+    width: 298px;
+    height: 300px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .img-container {
+      width: 348px;
+      height: 419px;
+    }
+  }
+  
+  .imgen-card {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+  }
+  
+  .imgen-vehicle {
+    object-fit: contain;
+    height: 100%;
+  }
+  
+  .card-body {
+    color: white;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .learn-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  
+  .learn-btn:hover {
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 5px;
+    color: black;
+    transition: 0.2s;
+  }
+  
+  .learn-btn:active {
+    background-color: white;
+  }
+  .star-icon {
+    align-self: center;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: white;
+  }
+  .star-icon:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 50%;
+    transition: 0.1;
+  }
+  .star-icon:active {
+    background-color: white;
+  }
+  
